@@ -1,55 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <ul>
-        <li> 
+    <ul id="Menu">
+        <li>
             <a href="index.html">Home</a>
         </li>
-        <li> 
+        <li>
             <a href="contato.html">Contato</a>
         </li>
     </ul>
 
-    <h1>Sobre o Gabriel</h1>
-    
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        Minima aliquid ratione adipisci, totam delectus exercitationem tempore explicabo quidem magni, 
-        est possimus excepturi quos magnam? Neque ipsa dignissimos laborum ut fuga!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatem, eligendi mollitia hic culpa vero voluptates. 
-        Quia reiciendis quae qui, omnis praesentium, 
-        dolor eum excepturi officiis error adipisci suscipit consequuntur voluptas?
-     </p>
-     <p> 
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Sapiente, ea accusamus quae eligendi vel quas debitis. 
-        Velit quibusdam vel eveniet nihil eius, voluptatum natus illum commodi deleniti facere culpa eaque.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Voluptatum quidem fuga dolor, nisi tempora minima ut repellendus ex, earum eos cum maxime delectus! 
-        Reprehenderit illum eum recusandae facere eos laboriosam.
-     </p>
+    <h1 class="center">Sobre o Gabriel</h1>
+    <div class="container">
+        <div>
+            <img src="assets/img/Minha foto.jpg" alt="Foto do criador do conteúdo">
+        </div>
+        <div class="p-30">
+            <p class="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quae sint, nisi illo
+                veritatis animi deleniti
+                obcaecati, optio officia quas pariatur unde aperiam exercitationem omnis neque laudantium, placeat aut
+                provident? </p>
 
-     <img src="assets/img/Minha foto.jpg" alt="Foto do criador do conteúdo">
+            <p class="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quae sint, nisi illo
+                veritatis animi deleniti
+                obcaecati, optio officia quas pariatur unde aperiam exercitationem omnis neque laudantium, placeat aut
+                provident? </p>
+        </div>
 
-     <h2>Meu Vídeo Favorito:</h2>
+    </div>
+    <h2 class="center">Meu Vídeo Favorito:</h2>
+    <div class="container mb-50">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/llJerlbdAqc" title="YouTube video player"
+        frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+     gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-     <iframe 
-     width="560" 
-     height="315" 
-     src="https://www.youtube.com/embed/llJerlbdAqc" 
-     title="YouTube video player" 
-     frameborder="0" 
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-     gyroscope; picture-in-picture; web-share" 
-     allowfullscreen
-     ></iframe>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/ovictoru/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/iconLinkedin.png" alt="Icon LinkedIn">
+                <a href="https://github.com/ovictoru" target="_blank">
+                    <img class="tm-social p-30" src="assets/img/iconGitHub.png" alt="Icon GitHub">
+        </div>
 
 
+        <p class="direitos"> Todos os direitos reservados: Gabriel Farias &copy; </p>
+    </footer>
 </body>
+
 </html>
